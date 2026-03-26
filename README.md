@@ -1,23 +1,14 @@
-# MultiDomain_QSAR (Version for Peer Review)
-The repository contains the data files and code files needed to reach the conclusions in the article “Toxicological Multi-Domain QSAR Modeling Based on *Daphnia magna* Adverse Outcome Pathways Network for Risk Prioritization of Environmental Chemicals”.
+# Multi-target QSAR Prediction System for Toxicity Risk (Version for Peer Review)
+A comprehensive QSAR prediction and risk assessment framework that integrates a **multi-domain deep learning model**, **applicability domain (AD) assessment**, and **toxicity risk probability (ToxPi) calculation & visualization**. The system supports parallel bioactivity prediction and reliability evaluation for chemicals across 24 MIEs/KEs in *Daphnia magna* AOP Network, followed by toxicity risk assessment and visualization.
 
-### The data files consist of 2 pieces:
-- **allDescriptors.csv:** Feature matrix obtained after molecular structure optimization and descriptors calculation for all chemicals (6,971 chemicals ×10,024 structure descriptors).
-- **domain_dir:** Processed bioactivity data for all 24 MIEs/KEs in the *Daphnia magna* AOP network.
+### Project Structure
+This repository is divided into two core sections, serving users with different needs:
+- **`Model_deployment_predictor/`** - **Model Deployment & Application**
+  - Contains the **ready-to-use** multi-target QSAR prediction tool and the toxicity risk calculator & visualization tool.
+  - Provides model files, usage examples, and reference data.
+- **`Model_training_pipeline/`** - **Research Reproduction & Training Pipeline**
+  - Contains the full set of executable scripts for **data preprocessing, model training, and evaluation**.
+  - Includes raw data, detailed results, and a complete environment configuration.
 
-### The code files include 9 scripts:
-- *S1_features_preprocess.py*
-- *S2_TBE_train_model.py*
-- *S3_TBE_predict_external.py*
-- *S4_TBE_ADplot.py*
-- *S5_MLP_train_model.py*
-- *S6_MLP_predict_external.py*
-- *S7_MLP_ADplot.py*
-- *S8_ROCplot.py*
-- *S9_ADcoverage_plot.py*
-
-Among these, *S5_MLP_train_model.py* is the core script for Domain-Cross Multi-Layer Perceptron (MLP) Model training. 
- 
-To reproduce this study, run the scripts in the order of S1-S9 and save the intermediate files, and pay attention to modifying the file path before running the scripts. 
-
+### Note
 The manuscript is under review. This repository contains a limited version of the code and data for peer review purposes. The full data files and code files will be released upon publication.
