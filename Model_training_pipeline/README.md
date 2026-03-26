@@ -1,4 +1,4 @@
-# AOP_QSAR
+# Complete Research Reproduction Guide
 The repository contains the data files and code files needed to reach the conclusions in the article “Toxicological Multi-Domain QSAR Modeling Based on *Daphnia magna* Adverse Outcome Pathways Network for Risk Prioritization of Environmental Chemicals”.
 
 ### The data files consist of 2 pieces:
@@ -17,6 +17,5 @@ The repository contains the data files and code files needed to reach the conclu
 - *S9_ADcoverage_plot.py*
 
 Among these, *S5_MLP_train_model.py* is the core script for Domain-Cross Multi-Layer Perceptron (MLP) Model training. 
- 
-To reproduce this study, run the scripts in the order of S1-S9, and pay attention to modifying the file path before running the script. 
-The manuscript is under review and will make the full data files and code files public upon publication.
+
+To reproduce this study, run the scripts in the order of S1-S9 and save the intermediate files, and pay attention to modifying the file path before running the scripts.
