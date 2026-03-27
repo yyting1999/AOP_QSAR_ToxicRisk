@@ -5,10 +5,9 @@ A comprehensive QSAR prediction and risk assessment framework that integrates a 
 This repository is divided into two core sections, serving users with different needs:
 - **`Model_deployment_predictor/`** - **Model Deployment & Application**
   - Contains the **ready-to-use** multi-target QSAR prediction tool and the toxicity risk calculator & visualization tool.
-  - Provides model files, usage examples, and reference data.
+  - Provides trained model files, usage examples, and reference data.
 - **`Model_training_pipeline/`** - **Research Reproduction & Training Pipeline**
-  - Contains the full set of executable scripts for **data preprocessing, model training, and evaluation**.
-  - Includes raw data, detailed results, and a complete environment configuration.
+  - Contains the raw training data and the full set of executable scripts for **data preprocessing, model training, and evaluation**.
 
 ### Note
 The manuscript is under review. This repository contains a limited version of the code and data for peer review purposes. The full data files and code files will be released upon publication.
