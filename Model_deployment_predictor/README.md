@@ -1,6 +1,8 @@
 ## QSAR Prediction & Toxicity Risk Assessment Tool - User Guide
 This directory provides the trained **Multi-domain MLP prediction model**, its deployment environment, and the **ToxPi risk calculator & visualization tool**. You can directly predict multi-target activity for unknown  chemicals, obtain **Applicability Domain (AD) assessment** results, and then perform toxicity risk assessment (ToxPi) with visual comparison to known reference chemicals.
 
+![workflow](workflow.png)
+
 ### Multi-target QSAR Prediction (*A1_MultiDomain_QSAR_Predictor.py*)
 - **Prepare Feature File**: Your input must be a CSV file​ and contain all feature columns​ required by the model (*model_required_features.csv*). The input file can be prepared as the sample file (*MultiDomianQSARPredictor_test.csv*).
 
